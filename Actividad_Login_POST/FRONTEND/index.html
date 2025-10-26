@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>PixelForge Studio | DCCH</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="nav-left">
+      <a href="index.html" class="nav-logo">🎮 PixelForge</a>
+      <a href="index.html" class="nav-link active">Inicio</a>
+      <a href="about.html" class="nav-link">Sobre Nosotros</a>
+    </div>
+    <div class="nav-right">
+      <span id="userName" class="user-name"></span>
+      <button id="loginBtn" class="icon-btn" title="Login">
+        <span class="login-icon">🕹️</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Sección principal -->
+  <main>
+    <section id="home">
+      <h1>Bienvenido a PixelForge Studio</h1>
+      <p>  
+        Somos un estudio indie apasionado por el arte, la narrativa y la programación, donde cada píxel cuenta una historia.
+        <br><br>
+        Nos encanta romper las reglas, mezclar estilos y dar vida a experiencias únicas.  
+        Desde juegos retro con estética pixel art hasta universos inmersivos en 3D, nuestro objetivo es ¡crear diversión con alma!.
+      </p>
+    </section>
+  </main>
+
+  <!-- Modal de Login -->
+  <div id="loginModal" class="modal">
+    <div class="modal-content">
+      <span class="close" id="closeModal">&times;</span>
+      <h2>Iniciar Sesión</h2>
+      <form id="formLogin">
+        <input type="text" id="login" placeholder="Usuario" required>
+        <input type="password" id="password" placeholder="Contraseña" required>
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+  </footer>
+  <p class="nombre"> <strong>Danna Cristina Castro Hernández - 448294</strong> <br> 21 Octubre 2025</p>
+
+  <script src="app.js"></script>
+</body>
+</html>

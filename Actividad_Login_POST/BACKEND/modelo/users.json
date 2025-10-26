@@ -1,0 +1,9 @@
+[
+    {"cuenta": "gina",              "contrasena": "1234"},
+    {"cuenta": "danna",             "contrasena": "danna2025"},
+    {"cuenta": "cesar",             "contrasena": "password"},
+    {"cuenta": "isabel",            "contrasena": "qwerty"},
+    {"cuenta": "fer",               "contrasena": "usuario1"}, 
+    {"cuenta": "guest",             "contrasena": "guest1234"} 
+]
+
